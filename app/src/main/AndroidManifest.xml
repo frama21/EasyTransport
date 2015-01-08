@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ruben.easytransport" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.ruben.easytransport.MenuPrincipal"
+            android:label="@string/title_activity_menu_principal" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.ruben.easytransport.GestionDeRutas"
+            android:label="@string/title_activity_gestion_de_rutas" >
+        </activity>
+
+        <fragment
+            android:name=".VistaRutas"
+            android:label="@string/title_activity_vista_rutas" >
+        </fragment>
+        <fragment
+            android:name="AnadirAcuerdo"
+            android:label="@string/title_activity_anadir_acuerdo" >
+        </fragment>
+        <fragment
+            android:name="ListarAcuerdosTransportista"
+            android:label="@string/title_activity_ListarAcuerdoTransportista" >
+        </fragment>
+        <fragment
+            android:name="BusquedaRuta"
+            android:label="@string/title_activity_busqueda_ruta" >
+        </fragment>
+
+        <activity
+            android:name="com.example.ruben.easytransport.ListarRuta"
+            android:label="@string/title_activity_listar_ruta"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.ruben.easytransport.Anadir_acuerdo"
+            android:label="@string/title_activity_anadir_acuerdo" >
+        </activity>
+
+        <fragment
+            android:name="com.example.ruben.easytransport.MisRutas"
+            android:label="@string/title_activity_mis_rutas" >
+        </fragment>
+
+        <activity
+            android:name="com.example.ruben.easytransport.NuevoAcuerdo"
+            android:label="@string/title_activity_nuevo_acuerdo" >
+        </activity>
+        <activity
+            android:name="com.example.ruben.easytransport.AcuerdoPropuesto"
+            android:label="@string/title_activity_acuerdo_propuesto" >
+        </activity>
+        <activity
+            android:name="com.example.ruben.easytransport.LoginFirst"
+            android:label="@string/title_activity_menu_principalogin" >
+        </activity>
+        <activity
+            android:name="com.example.ruben.easytransport.MailActivty"
+            android:label="@string/title_activity_mail_activty" >
+        </activity>
+
+        <fragment
+            android:name="com.example.ruben.easytransport.ListarAcuerdosTransportista"
+            android:label="@string/title_activity_acuerdos_transportista" >
+        </fragment>
+
+        <activity
+            android:name="com.example.ruben.easytransport.ListarAcuerdosRuta"
+            android:label="@string/title_activity_listar_acuerdos_ruta" >
+        </activity>
+        <activity
+            android:name="com.example.ruben.easytransport.registrar"
+            android:label="Registro" >
+        </activity>
+        <activity
+            android:name="com.example.ruben.easytransport.ModificarDatosUsuario"
+            android:label="@string/title_activity_modificar_datos_usuario" >
+        </activity>
+        <activity
+            android:name="com.example.ruben.easytransport.EditarPerfil"
+            android:label="@string/title_activity_editar_perfil" >
+        </activity>
+    </application>
+
+</manifest>

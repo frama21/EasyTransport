@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Menu</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu_principal">EasyTransport</string>
+    <string name="title_activity_menu_principalogin">Login</string>
+    <string name="title_activity_listar_ruta">Ver acuerdos</string>
+    <string name="title_activity_gestion_de_rutas">Añadir ruta</string>
+    <string name="title_activity_vista_rutas">vistaRutas</string>
+    <string name="title_activity_anadir_acuerdo">anadir_acuerdo</string>
+    <string name="title_activity_busqueda_ruta">BusquedaRuta</string>
+    <string name="title_activity_ListarAcuerdoTransportista">ListarAcuerdoTransportista</string>
+    <string name="title_section1">Gestionar mis rutas</string>
+    <string name="title_section2">Buscar rutas</string>
+    <string name="title_section3">Ver acuerdos transportista</string>
+    <string name="title_section4">Historico Rutas</string>
+    <string name="title_section5">Ver acuerdos remitente</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example"></string>
+
+    <!-- JD:  Strings de Gestion de rutas -->
+
+    <string name="Spinner">Vehiculo</string>
+    <string name="Origen">Origen</string>
+    <string name="Destino">Destino</string>
+    <string name="Fecha">Fecha</string>
+    <string name="textoOrigen">Introduce el Origen</string>
+    <string name="textoDestino">Introduce el Destino</string>
+    <string name="formatoFecha">dd/mm/yyyy</string>
+    <string name="Hora">Hora</string>
+    <string name="Comentario">Comentarios adicionales</string>
+
+    <!-- Fran: Strings de VistaRutas -->
+    <string name="Anyadir">Añadir ruta</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Adr:Strings busqueda y listado -->
+    <string name="FechaIni">A partir de </string>
+    <string name="FechaFin">Hasta</string>
+    <string name="BotonBuscar">Buscar</string>
+    <string name="DesvioOrigen">Desvío del Origen</string>
+    <string name="DesvioFin">Desvío de la llegada</string>
+    <string name="BotonNuevaRuta">Nueva Búsqueda</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- String Añadir acuerdo -->
+    <string name="Remitente">Remitente</string>
+    <string name="textoRemitente">Introduce el Remitente</string>
+    <string name="Transportista">Transportista</string>
+    <string name="textoTransportista">Introduce el Transportista</string>
+    <string name="Entrega">Punto de Entrega</string>
+    <string name="textoEntrega">Introduce el punto Entrega</string>
+    <string name="Recogida">Punto de Recogida</string>
+    <string name="textoRecogida">Introduce el punto Recogida</string>
+    <string name="Dinero">Dinero</string>
+    <string name="textoDinero">Introduce la cantidad de dinero</string>
+    <string name="title_activity_mis_rutas">MisRutas</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_nuevo_acuerdo">NuevoAcuerdo</string>
+    <string name="title_activity_acuerdo_propuesto">AcuerdoPropuesto</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_mail_activty">MailActivty</string>
+    <string name="title_activity_acuerdos_transportista">Listar acuerdos transportista</string>
+    <string name="title_activity_listar_acuerdos_ruta">ListarAcuerdosRuta</string>
+    <string name="title_activity_modificar_datos_usuario">ModificarDatosUsuario</string>
+    <string name="title_activity_editar_perfil">EditarPerfil</string>
+
+</resources>
